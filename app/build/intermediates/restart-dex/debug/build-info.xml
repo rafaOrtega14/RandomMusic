@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.1"
+    timestamp="77312771689144"
+    token="-7271739241621805069"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1124" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="44" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="77137921912218"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="/Users/mac/Desktop/Musicote/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="77312771689144"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
