@@ -3,12 +3,17 @@ package com.example.mac.musicote;
 import android.content.Context;
 import android.media.AudioFormat;
 import android.media.AudioManager;
+import android.media.AudioRecord;
 import android.media.AudioTrack;
 import android.media.MediaPlayer;
+import android.media.MediaRecorder;
+import android.os.Environment;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Random;
@@ -26,7 +31,7 @@ public class Note {
     private double minfreq=261.62/4;
     private double salto=1.059463;
     private byte generatedSnd[];
-    File tempMp3;
+    Context ctx;
 
     Note(Context ctx){
         Random rand = new Random();
@@ -36,13 +41,8 @@ public class Note {
         sample = new double[numSamples];
         generatedSnd = new byte[2 * numSamples];
         randomNum = rand.nextInt(11);
+        this.ctx=ctx;
         genTone(randomNum);
-        try {
-            Log.w(""+ctx,"");
-            tempMp3 = File.createTempFile("kurchina", "mp3",ctx.getExternalCacheDir());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
     }
 
@@ -93,32 +93,13 @@ public class Note {
     }
 
     public void playSound(){
-        MediaPlayer mediaPlayer = new MediaPlayer();
-        try {
-            // create temp file that will hold byte array
-
-            tempMp3.deleteOnExit();
-            FileOutputStream fos = new FileOutputStream(tempMp3);
-            fos.write(generatedSnd);
-            fos.close();
-
-            // resetting mediaplayer instance to evade problems
-            mediaPlayer.reset();
-
-            // In case you run into issues with threading consider new instance like:
-            // MediaPlayer mediaPlayer = new MediaPlayer();
-
-            // Tried passing path directly, but kept getting
-            // "Prepare failed.: status=0x1"
-            // so using file descriptor instead
-            FileInputStream fis = new FileInputStream(tempMp3);
-            mediaPlayer.setDataSource(fis.getFD());
-            mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-            mediaPlayer.prepare();
-            mediaPlayer.start();
-        } catch (IOException ex) {
-            String s = ex.toString();
-            ex.printStackTrace();
-        }
+   final AudioTrack audioTrack = new AudioTrack(AudioManager.STREAM_MUSIC,
+           8000, AudioFormat.CHANNEL_OUT_MONO,
+            AudioFormat.ENCODING_DEFAULT, generatedSnd.length,
+            AudioTrack.MODE_STATIC);
+        audioTrack.write(generatedSnd, 0, generatedSnd.length);
+        Log.w(""+generatedSnd.length,"sdfasdf");
+        audioTrack.play();
     }
+
 }

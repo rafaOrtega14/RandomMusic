@@ -12,22 +12,22 @@ import java.util.Random;
 public class Riff {
     private int longitud;
     private Note[] notes;
+    private Context ctx;
     Riff(int longitud,Context ctx){
         this.longitud=longitud;
         this.notes = new Note[longitud];
-        for(int i=0; i<longitud; i++){
-            notes[i]= new Note(ctx);
-        }
+        this.ctx=ctx;
     }
 
     public void play(){
-        for(Note note:notes){
-            note.playSound();
-            try {
-                Thread.sleep(note.getDuration().getDuration()*(250));
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+        for(int i=0; i<notes.length; i++){
+            notes[i]= new Note(ctx);
+            //try {
+                notes[i].playSound();
+                //Thread.sleep(notes[i].getDuration().getDuration()*(250));
+            //} catch (InterruptedException e) {
+              //  e.printStackTrace();
+            //}
         }
     }
 }

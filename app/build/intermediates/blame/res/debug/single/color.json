@@ -8,6 +8,10 @@
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color/abc_primary_text_material_light.xml"
     },
     {
+        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/color/design_error.xml"
+    },
+    {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color/abc_secondary_text_material_dark.xml"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/color/design_tint_password_toggle.xml"
     },
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
