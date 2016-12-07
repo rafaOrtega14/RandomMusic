@@ -16,6 +16,7 @@ ADDED from /Users/mac/Desktop/Musicote/app/src/main/AndroidManifest.xml:2:1-20:1
 application
 ADDED from /Users/mac/Desktop/Musicote/app/src/main/AndroidManifest.xml:5:5-18:19
 MERGED from [com.android.support:design:24.2.1] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.weiwangcn.betterspinner/library-material/1.1.0/AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/AndroidManifest.xml:25:5-20
@@ -57,6 +58,8 @@ uses-sdk
 INJECTED from /Users/mac/Desktop/Musicote/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:24.2.1] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:24.2.1] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.weiwangcn.betterspinner/library-material/1.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.rengwuxian.materialedittext:library:2.0.3] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:24.2.1] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:24.2.1] /Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/AndroidManifest.xml:21:5-23:60

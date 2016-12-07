@@ -23,17 +23,24 @@ public class Riff {
     private ArrayList<Note> notes;
     private ArrayList<String> notes_name;
     private ArrayList<Duration> rythim;
+    private Scale scale;
+    private int minduration;
+    private int maxduration;
     private static final double TONALIDAD=261.62/4;
-    Riff(int longitud){
+
+    Riff(Scale scale, int longitud, int minduration, int maxduration){
         int note,duration;
         this.longitud=longitud;
         this.notes = new ArrayList<>();
         this.notes_name=new ArrayList<>();
         this.rythim=new ArrayList<>();
+        this.scale = scale;
+        this.minduration = minduration;
+        this.maxduration = maxduration;
         Random rand = new Random();
         for (int i=0; i<longitud; i++){
-            note=rand.nextInt(11);
-            duration=rand.nextInt(5);
+            note=scale.getIntervals()[rand.nextInt(scale.getIntervals().length)];
+            duration=rand.nextInt(maxduration - minduration + 1) + minduration;/*Los +1 es porque el numero que se mete no esta incluido*/
             notes.add(new Note(note,duration,TONALIDAD));
             getNoteNames(note);
             getRythim(duration);
@@ -64,8 +71,8 @@ public class Riff {
                 notes_name.add("C");
                 break;
             case 1:
-            notes_name.add("C#");
-            break;
+                notes_name.add("C#");
+                break;
             case 2:
                 notes_name.add("D");
                 break;

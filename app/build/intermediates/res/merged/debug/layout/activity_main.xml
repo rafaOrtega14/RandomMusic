@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#3F51B5"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,7 +10,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.mac.musicote.MainActivity">
-
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/android_material_design_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#05ab9a"
+        android:hint="Choose a Scale"
+        android:textSize="25sp"
+        app:met_floatingLabel="normal" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

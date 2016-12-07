@@ -69,19 +69,19 @@ public class Note {
     private void genDuration(int duration) {
         switch (duration) {
             case 0:
-                this.duration = Duration.REDONDA;
+                this.duration = Duration.SEMICORCHEA;
                 break;
             case 1:
-                this.duration = Duration.BLANCA;
+                this.duration = Duration.CORCHEA;
                 break;
             case 2:
                 this.duration = Duration.NEGRA;
                 break;
             case 3:
-                this.duration = Duration.CORCHEA;
+                this.duration = Duration.BLANCA;
                 break;
             case 4:
-                this.duration = Duration.SEMICORCHEA;
+                this.duration = Duration.REDONDA;
                 break;
         }
     }
