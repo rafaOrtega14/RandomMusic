@@ -1,7 +1,7 @@
-#Wed Dec 07 00:30:45 CET 2016
-base.0=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3ad1d126b2757902d9514be274a4fada41d59b8f
+#Wed Dec 07 10:55:33 CET 2016
+base.0=C\:\\Users\\David\\randommusic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b7fd4aebd352ab26acbd74bfd5f37df012575dce
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7901dab285f4883e4b86627d560b537732687bf7/classes.dex
-base.1=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7901dab285f4883e4b86627d560b537732687bf7
-file.0=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3ad1d126b2757902d9514be274a4fada41d59b8f/classes.dex
+file.1=C\:\\Users\\David\\randommusic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5e775dccaab5962513120e61f77e38feac79c5b5\\classes.dex
+base.1=C\:\\Users\\David\\randommusic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5e775dccaab5962513120e61f77e38feac79c5b5
+file.0=C\:\\Users\\David\\randommusic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b7fd4aebd352ab26acbd74bfd5f37df012575dce\\classes.dex

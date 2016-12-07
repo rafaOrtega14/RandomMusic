@@ -27,7 +27,7 @@ private ImageView img;
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Riff prueba = new Riff(10);
+                Riff prueba = new Riff(Scale.PentatonicaMayor, 10, Duration.SEMICORCHEA.ordinal(), Duration.NEGRA.ordinal());
                 prueba.play();
                 prueba.showNotes();
                 prueba.showRythim();
