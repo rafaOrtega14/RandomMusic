@@ -781,6 +781,7 @@ int id shortcut 0x7f0c0057
 int id showCustom 0x7f0c0011
 int id showHome 0x7f0c0012
 int id showTitle 0x7f0c0013
+int id signature_canvas 0x7f0c0088
 int id snackbar_action 0x7f0c0074
 int id snackbar_text 0x7f0c0073
 int id snap 0x7f0c0019
@@ -867,7 +868,8 @@ int layout notification_template_part_time 0x7f04002f
 int layout select_dialog_item_material 0x7f040030
 int layout select_dialog_multichoice_material 0x7f040031
 int layout select_dialog_singlechoice_material 0x7f040032
-int layout support_simple_spinner_dropdown_item 0x7f040033
+int layout show_riff 0x7f040033
+int layout support_simple_spinner_dropdown_item 0x7f040034
 int mipmap ic_launcher 0x7f030000
 int string abc_action_bar_home_description 0x7f060000
 int string abc_action_bar_home_description_format 0x7f060001

@@ -1,5 +1,6 @@
 package com.example.mac.musicote;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.media.AudioFormat;
 import android.media.AudioManager;
@@ -34,7 +35,6 @@ private ImageView img;
         final MaterialBetterSpinner materialDesignSpinner = (MaterialBetterSpinner)
                 findViewById(R.id.android_material_design_spinner);
         materialDesignSpinner.setAdapter(arrayAdapter);
-        materialDesignSpinner.setHintTextColor(Color.WHITE);
         img=(ImageView)findViewById(R.id.imageView);
         img.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,12 +50,17 @@ private ImageView img;
                     case "Pentatonic Major":
                         scale=Scale.PentatonicaMayor;
                         break;
+                    default:
+                        scale=Scale.StandardMayor;
+                        break;
 
                 }
                 Riff prueba = new Riff(scale, 10, Duration.SEMICORCHEA.ordinal(), Duration.NEGRA.ordinal());
                 prueba.play();
                 prueba.showNotes();
                 prueba.showRythim();
+                Intent i=new Intent(MainActivity.this,DrawRiff.class);
+                startActivity(i);
             }
         });
     }

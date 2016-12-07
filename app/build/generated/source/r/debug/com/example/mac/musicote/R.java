@@ -2947,6 +2947,7 @@ containing a value of this type.
         public static final int showCustom=0x7f0c0011;
         public static final int showHome=0x7f0c0012;
         public static final int showTitle=0x7f0c0013;
+        public static final int signature_canvas=0x7f0c0088;
         public static final int snackbar_action=0x7f0c0074;
         public static final int snackbar_text=0x7f0c0073;
         public static final int snap=0x7f0c0019;
@@ -3037,7 +3038,8 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f040030;
         public static final int select_dialog_multichoice_material=0x7f040031;
         public static final int select_dialog_singlechoice_material=0x7f040032;
-        public static final int support_simple_spinner_dropdown_item=0x7f040033;
+        public static final int show_riff=0x7f040033;
+        public static final int support_simple_spinner_dropdown_item=0x7f040034;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

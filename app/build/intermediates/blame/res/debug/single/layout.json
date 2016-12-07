@@ -172,6 +172,10 @@
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
+        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/layout/show_riff.xml",
+        "source": "/Users/mac/Desktop/Musicote/app/src/main/res/layout/show_riff.xml"
+    },
+    {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_part_time.xml"
     },

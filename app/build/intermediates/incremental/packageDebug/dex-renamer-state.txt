@@ -1,4 +1,4 @@
-#Wed Dec 07 12:01:49 CET 2016
+#Wed Dec 07 12:55:24 CET 2016
 base.0=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3ad1d126b2757902d9514be274a4fada41d59b8f
 renamed.1=classes.dex
 renamed.0=classes2.dex
