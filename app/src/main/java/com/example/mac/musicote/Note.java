@@ -66,7 +66,6 @@ public class Note {
         return duration;
     }
 
-
     private void genDuration(int duration) {
         switch (duration) {
             case 0:

@@ -1,4 +1,7 @@
-#Tue Dec 06 20:00:00 CET 2016
-base.0=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Wed Dec 07 00:30:45 CET 2016
+base.0=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3ad1d126b2757902d9514be274a4fada41d59b8f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7901dab285f4883e4b86627d560b537732687bf7/classes.dex
+base.1=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7901dab285f4883e4b86627d560b537732687bf7
+file.0=/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3ad1d126b2757902d9514be274a4fada41d59b8f/classes.dex

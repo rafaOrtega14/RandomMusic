@@ -21,22 +21,99 @@ import java.util.Random;
 public class Riff {
     private int longitud;
     private ArrayList<Note> notes;
-
+    private ArrayList<String> notes_name;
+    private ArrayList<Duration> rythim;
+    private static final double TONALIDAD=261.62/4;
     Riff(int longitud){
+        int note,duration;
         this.longitud=longitud;
         this.notes = new ArrayList<>();
+        this.notes_name=new ArrayList<>();
+        this.rythim=new ArrayList<>();
         Random rand = new Random();
         for (int i=0; i<longitud; i++){
-            notes.add(new Note(rand.nextInt(11), rand.nextInt(4)+1,261.62));
+            note=rand.nextInt(11);
+            duration=rand.nextInt(5);
+            notes.add(new Note(note,duration,TONALIDAD));
+            getNoteNames(note);
+            getRythim(duration);
         }
     }
-
+    private void getRythim(int duration){
+        switch (duration) {
+            case 0:
+                rythim.add(Duration.REDONDA);
+                break;
+            case 1:
+                rythim.add(Duration.BLANCA);
+                break;
+            case 2:
+                rythim.add(Duration.NEGRA);
+                break;
+            case 3:
+                rythim.add(Duration.CORCHEA);
+                break;
+            case 4:
+                rythim.add(Duration.SEMICORCHEA);
+                break;
+        }
+    }
+    private void getNoteNames(int note){
+        switch (note){
+            case 0:
+                notes_name.add("C");
+                break;
+            case 1:
+            notes_name.add("C#");
+            break;
+            case 2:
+                notes_name.add("D");
+                break;
+            case 3:
+                notes_name.add("D#");
+                break;
+            case 4:
+                notes_name.add("E");
+                break;
+            case 5:
+                notes_name.add("F");
+                break;
+            case 6:
+                notes_name.add("F#");
+                break;
+            case 7:
+                notes_name.add("G");
+                break;
+            case 8:
+                notes_name.add("G#");
+                break;
+            case 9:
+                notes_name.add("A");
+                break;
+            case 10:
+                notes_name.add("A#");
+                break;
+            case 11:
+                notes_name.add("B");
+                break;
+        }
+    }
+    public void showNotes(){
+        for(int i=0;i<notes_name.size();i++){
+            Log.w(notes_name.get(i),"sadfasdf");
+        }
+    }
+    public void showRythim(){
+        for(int i=0;i<rythim.size();i++){
+            Log.w(rythim.get(i).name(),"sadfasdf");
+        }
+    }
    public void play(){
-       byte[] mola =createRiff();
-
        for(int i=0; i<notes.size(); i++) {
-        final AudioTrack  mAudioTrack = new AudioTrack(AudioManager.STREAM_MUSIC, notes.get(i).getByteArray().length, AudioFormat.CHANNEL_OUT_MONO,
-                   AudioFormat.ENCODING_PCM_16BIT, notes.get(i).getByteArray().length, AudioTrack.MODE_STATIC);
+        final AudioTrack  mAudioTrack = new AudioTrack(AudioManager.STREAM_MUSIC,
+                notes.get(i).getByteArray().length, AudioFormat.CHANNEL_OUT_MONO,
+                   AudioFormat.ENCODING_PCM_16BIT,
+                notes.get(i).getByteArray().length, AudioTrack.MODE_STATIC);
            mAudioTrack.write(notes.get(i).getByteArray(), 0, notes.get(i).getByteArray().length);
            mAudioTrack.play();
            try {
@@ -56,18 +133,5 @@ public class Riff {
        }
     }
 
-    private byte[] createRiff(){
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream( );
 
-        for(int i=0;i<longitud;i++) {
-            try {
-                outputStream.write(notes.get(i).getByteArray());
-                //Log.w(notes.get(i).getByteArray().toString(),"dsf");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        byte riff[] = outputStream.toByteArray( );
-        return riff;
-    }
 }

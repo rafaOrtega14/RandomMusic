@@ -5,7 +5,7 @@ package com.example.mac.musicote;
  */
 
 public enum Duration {
-    REDONDA(1), BLANCA(1), NEGRA(1), CORCHEA(2), SEMICORCHEA(2);
+    REDONDA(16), BLANCA(8), NEGRA(4), CORCHEA(2), SEMICORCHEA(1);
     private final int duration;
     Duration(int duration){
         this.duration=duration;

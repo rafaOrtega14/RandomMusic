@@ -5,207 +5,39 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="129865884577286"
+    timestamp="133475359093970"
     token="-7271739241621805069"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1033" />
+        duration="535" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="38" />
+        duration="58" />
     <task
         name="verifier"
         duration="1" />
 
     <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_68df0e0da411b3002298e0ff89a713fd948d7542/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6850ccc5b7404e95fc42579ea918bffb56ac4e9a/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3ad1d126b2757902d9514be274a4fada41d59b8f/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a0070d4710495a771521c0ce975b50f6151b6863/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_67cf2c0847824f7a5f447fd3712e8aef28c01825/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_5b2e7a1badfbe95774f34da79f0af2764132f01e/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_41cbc38f354c67182e878781db0dbcb7f09ae449/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b0697742065ed3ccebd6aad09108f165f9e6133f/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_fb88daaa92f42a3929f461fa76f14e6aba95ddd0/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_1d6a9caaecbb8757d71c6134492d89cd95d4bb9f/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_a2d4a394ab8d826c5b3753815fa3bc307ca4aed1/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_00f868309e08f926c01965c0fe18dd7bf4560296/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_0058616c8af29ae320a95d7d50a625d96e03f64c/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_ba06cf10e06f8dfddb130b7f739f07bd53da1168/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7901dab285f4883e4b86627d560b537732687bf7/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_98ffe390cb47b8915198e3aae7dab3894397c5cd/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_08ca33a9eef83b013edc7c73b5dfca6ff15a801c/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_65ac2857b620f1e22e4da8d762898ead0a36cf16/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-        type="DEX" />
-    <artifact
         location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_eeb71e97114f6e30000b53e918ecfad3f05fe3a8/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="128145514356894"
+        timestamp="132040710347398"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/mac/Desktop/Musicote/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="129865884577286"
+        timestamp="133475359093970"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_68df0e0da411b3002298e0ff89a713fd948d7542/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6850ccc5b7404e95fc42579ea918bffb56ac4e9a/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3ad1d126b2757902d9514be274a4fada41d59b8f/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a0070d4710495a771521c0ce975b50f6151b6863/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_67cf2c0847824f7a5f447fd3712e8aef28c01825/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_5b2e7a1badfbe95774f34da79f0af2764132f01e/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_41cbc38f354c67182e878781db0dbcb7f09ae449/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b0697742065ed3ccebd6aad09108f165f9e6133f/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_fb88daaa92f42a3929f461fa76f14e6aba95ddd0/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_1d6a9caaecbb8757d71c6134492d89cd95d4bb9f/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_a2d4a394ab8d826c5b3753815fa3bc307ca4aed1/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_00f868309e08f926c01965c0fe18dd7bf4560296/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_0058616c8af29ae320a95d7d50a625d96e03f64c/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_ba06cf10e06f8dfddb130b7f739f07bd53da1168/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7901dab285f4883e4b86627d560b537732687bf7/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_98ffe390cb47b8915198e3aae7dab3894397c5cd/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_08ca33a9eef83b013edc7c73b5dfca6ff15a801c/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_65ac2857b620f1e22e4da8d762898ead0a36cf16/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
-        <artifact
             location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_eeb71e97114f6e30000b53e918ecfad3f05fe3a8/classes.dex"
             type="DEX" />
     </build>
 

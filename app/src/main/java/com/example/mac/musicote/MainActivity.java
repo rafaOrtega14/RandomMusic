@@ -27,8 +27,10 @@ private ImageView img;
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Riff prueba = new Riff(50);
-               prueba.play();
+                Riff prueba = new Riff(10);
+                prueba.play();
+                prueba.showNotes();
+                prueba.showRythim();
             }
         });
     }
