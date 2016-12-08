@@ -180,16 +180,16 @@
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/met_ic_close.png",
+        "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/drawable-xxhdpi-v4/met_ic_close.png"
+    },
+    {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png",
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png",
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/met_ic_close.png",
-        "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/drawable-xxhdpi-v4/met_ic_close.png"
     },
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",

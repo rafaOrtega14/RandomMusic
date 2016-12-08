@@ -55,11 +55,11 @@ private ImageView img;
                         break;
 
                 }
-                Riff prueba = new Riff(scale, 10, Duration.SEMICORCHEA.ordinal(), Duration.NEGRA.ordinal());
+               Riff prueba = new Riff(scale, 10, Duration.SEMICORCHEA.ordinal(), Duration.NEGRA.ordinal());
                 prueba.play();
-                prueba.showNotes();
-                prueba.showRythim();
                 Intent i=new Intent(MainActivity.this,DrawRiff.class);
+                i.putExtra("notes",prueba.Notes());
+                i.putExtra("rythim",prueba.Rythim());
                 startActivity(i);
             }
         });

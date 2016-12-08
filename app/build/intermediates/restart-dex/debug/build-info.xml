@@ -5,40 +5,80 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="141740618857642"
+    timestamp="153522975203666"
     token="-7271739241621805069"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="747" />
+        duration="2809" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="41" />
     <task
         name="instant-run-transform"
-        duration="93" />
+        duration="92" />
     <task
         name="verifier"
-        duration="0" />
+        duration="34" />
 
     <artifact
-        location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
-        type="DEX" />
+        location="/Users/mac/Desktop/Musicote/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="140591079807355"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="145037611421770"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/mac/Desktop/Musicote/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="141740618857642"
+        timestamp="145746298621390"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/mac/Desktop/Musicote/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="153020567969712"
+        verifier="METHOD_DELETED" >
         <artifact
             location="/Users/mac/Desktop/Musicote/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="153216262048667"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/mac/Desktop/Musicote/app/build/intermediates/builds/debug/153216262048667/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="153260712399963"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/mac/Desktop/Musicote/app/build/intermediates/builds/debug/153260712399963/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="153522975203666"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/mac/Desktop/Musicote/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

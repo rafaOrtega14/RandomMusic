@@ -105,15 +105,11 @@ public class Riff {
                 break;
         }
     }
-    public void showNotes(){
-        for(int i=0;i<notes_name.size();i++){
-            Log.w(notes_name.get(i),"sadfasdf");
-        }
+    public ArrayList<String> Notes(){
+        return notes_name;
     }
-    public void showRythim(){
-        for(int i=0;i<rythim.size();i++){
-            Log.w(rythim.get(i).name(),"sadfasdf");
-        }
+    public ArrayList<Duration> Rythim(){
+        return rythim;
     }
    public void play(){
        for(int i=0; i<notes.size(); i++) {

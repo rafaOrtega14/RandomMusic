@@ -12,6 +12,10 @@
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_search_api_material.xml"
     },
     {
+        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/blanca.png",
+        "source": "/Users/mac/Desktop/Musicote/app/src/main/res/drawable/blanca.png"
+    },
+    {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ratingbar_material.xml"
     },
@@ -22,6 +26,14 @@
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/negra.png",
+        "source": "/Users/mac/Desktop/Musicote/app/src/main/res/drawable/negra.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/semicorchea.png",
+        "source": "/Users/mac/Desktop/Musicote/app/src/main/res/drawable/semicorchea.png"
     },
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/music.png",
@@ -46,6 +58,10 @@
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/redonda.png",
+        "source": "/Users/mac/Desktop/Musicote/app/src/main/res/drawable/redonda.png"
     },
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
@@ -74,6 +90,10 @@
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/corchea.png",
+        "source": "/Users/mac/Desktop/Musicote/app/src/main/res/drawable/corchea.png"
     },
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
@@ -118,6 +138,10 @@
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
         "source": "/Users/mac/Desktop/Musicote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/corch.png",
+        "source": "/Users/mac/Desktop/Musicote/app/src/main/res/drawable/corch.png"
     },
     {
         "merged": "/Users/mac/Desktop/Musicote/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
