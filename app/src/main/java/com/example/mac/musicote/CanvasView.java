@@ -50,46 +50,48 @@ public class CanvasView extends View {
         int screen=metrics.widthPixels;
         double x=0,y=0;
         int pentaSize=250;
+        double distance=41.6;
+        double diference=0;
         for(int i=0;i<notes.size();i++){
             switch (notes.get(i)){
-
                 case "C":
-                    y=pentaSize/7;
+                    diference=distance*6;
                     break;
                 case "C#":
-                    y=pentaSize/7;
+                    diference=distance*6;
                     break;
                 case "D":
-                    y=pentaSize/6;
+                    diference=distance*5;
                     break;
                 case "D#":
-                    y=pentaSize/6;
+                    diference=distance*5;
                     break;
                 case "E":
-                    y=pentaSize/5;
+                    diference=distance*4;
                     break;
                 case "F":
-                    y=pentaSize/4;
+                    diference=distance*3;
                     break;
                 case "F#":
-                    y=pentaSize/4;
+                    diference=distance*3;
                     break;
                 case "G":
-                    y=pentaSize/3;
+                    diference=distance*2;
                     break;
                 case "G#":
-                    y=pentaSize/3;
+                    diference=distance*2;
                     break;
                 case "A":
-                    y=pentaSize/2;
+                    diference=distance;
                     break;
                 case "A#":
-                    y=pentaSize/2;
+                    diference=distance;
                     break;
                 case "B":
-                    y=pentaSize;
+                    diference=0;
                     break;
             }
+            y=pentaSize-diference;
             if(i==0){
                 x=screen-70;
             }else{
@@ -97,7 +99,7 @@ public class CanvasView extends View {
             }
             mPaint.setTextSize(40f);
             canvas.drawBitmap(placeNotes(i),(float)x,(float)y,mPaint);
-            canvas.drawText(notes.get(i),(float)x-20,(float)y,mPaint);
+            canvas.drawText(notes.get(i),(float)x-60,(float)y+40,mPaint);
         }
 
     }
