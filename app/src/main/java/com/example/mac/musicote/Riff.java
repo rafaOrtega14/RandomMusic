@@ -4,6 +4,8 @@ import android.content.Context;
 import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.AudioTrack;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.util.Log;
 
 import java.io.ByteArrayInputStream;
@@ -111,6 +113,7 @@ public class Riff {
     public ArrayList<Duration> Rythim(){
         return rythim;
     }
+   @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
    public void play(){
        for(int i=0; i<notes.size(); i++) {
         final AudioTrack  mAudioTrack = new AudioTrack(AudioManager.STREAM_MUSIC,
@@ -118,7 +121,9 @@ public class Riff {
                    AudioFormat.ENCODING_PCM_16BIT,
                 notes.get(i).getByteArray().length, AudioTrack.MODE_STATIC);
            mAudioTrack.write(notes.get(i).getByteArray(), 0, notes.get(i).getByteArray().length);
+           mAudioTrack.setVolume(1.5f);
            mAudioTrack.play();
+           Log.w(""+notes.get(i).getByteArray().length,"·dsafasdfafds");
            try {
                Thread space = new Thread(new Runnable() {
                    @Override

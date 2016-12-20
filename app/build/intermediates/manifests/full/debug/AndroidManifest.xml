@@ -22,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.mac.musicote.DrawRiff" />
+        <activity android:name="com.example.mac.musicote.ListenToNumbers" />
 
         <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     </application>

@@ -5,7 +5,9 @@ import android.graphics.Color;
 import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.AudioTrack;
+import android.os.Build;
 import android.os.Handler;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -22,6 +24,7 @@ import static android.R.attr.max;
 
 public class MainActivity extends AppCompatActivity {
 private ImageView img;
+private Button btn;
     private static final String[] SCALELIST = {"Standard Major",
             "Pentatonic Menor",
             "Pentatonic Major"};
@@ -34,9 +37,11 @@ private ImageView img;
                 android.R.layout.simple_dropdown_item_1line, SCALELIST);
         final MaterialBetterSpinner materialDesignSpinner = (MaterialBetterSpinner)
                 findViewById(R.id.android_material_design_spinner);
+        materialDesignSpinner.setHintTextColor(Color.WHITE);
         materialDesignSpinner.setAdapter(arrayAdapter);
         img=(ImageView)findViewById(R.id.imageView);
         img.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void onClick(View v) {
                 Scale scale=null;
@@ -60,6 +65,14 @@ private ImageView img;
                 Intent i=new Intent(MainActivity.this,DrawRiff.class);
                 i.putExtra("notes",prueba.Notes());
                 i.putExtra("rythim",prueba.Rythim());
+                startActivity(i);
+            }
+        });
+        btn=(Button)findViewById(R.id.button);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity.this,ListenToNumbers.class);
                 startActivity(i);
             }
         });

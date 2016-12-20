@@ -54,40 +54,40 @@ public class CanvasView extends View {
         double diference=0;
         for(int i=0;i<notes.size();i++){
             switch (notes.get(i)){
-                case "C":
+                case "B":
                     diference=distance*6;
                     break;
-                case "C#":
+                case "A#":
                     diference=distance*6;
                     break;
-                case "D":
+                case "A":
                     diference=distance*5;
                     break;
-                case "D#":
+                case "G#":
                     diference=distance*5;
                     break;
-                case "E":
+                case "G":
                     diference=distance*4;
-                    break;
-                case "F":
-                    diference=distance*3;
                     break;
                 case "F#":
                     diference=distance*3;
                     break;
-                case "G":
+                case "F":
+                    diference=distance*3;
+                    break;
+                case "E":
                     diference=distance*2;
                     break;
-                case "G#":
+                case "D#":
                     diference=distance*2;
                     break;
-                case "A":
+                case "D":
                     diference=distance;
                     break;
-                case "A#":
+                case "C#":
                     diference=distance;
                     break;
-                case "B":
+                case "C":
                     diference=0;
                     break;
             }
